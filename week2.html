@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>HTML5 | Week 2</title>
+	<link rel="icon" href="logo.png">
+</head>
+<body>
+	<header>
+		<h1 style="margin: 25px; text-align: center; background-color: lightblue">WEEK 2: LET'S LEARN HOW TO CODE IN HTML5</h1>
+		<p style="margin: 25px; text-align: center; font-size: 18px;"><em>This week will finally get your hands dirty. It includes a little bit of theory and a lot of code.</em></p> 
+		<p style="margin: 25px; font-size: 18px;">Most of the HTML5 tags will be introduced here. What's the difference between block and inline tags? How to write a clean code? How to make sure it is syntactically &amp; symantically correct. You'll understand how to The Document Object Model (DOM) works. Also, how to add the images, videos &ndash; basically, multimedia. How to add tables, hyperlinks and other useful tags. In a gist, this is where you start to code.</p>
+	</header>
+	<section>
+		<h3 style=" margin: 25px; font-size: 20px">The Document Object Model</h3>
+		<figure>
+			<img style="float: left;" src="dom.png" width="350" alt="The DOM Structure">
+		</figure>
+		<ul style="margin: 25px; font-size: 22px">
+			<li style="margin: 25px">Basis of HTML5 is <em>"New features should be based on HTML, CSS, the DOM and Javascript."</em></li>
+			<li style="margin: 25px">The DOM provides common tree like structures that all pages should follow.</li>
+			<li style="margin: 25px">Computer Scientists <i>love</i> trees (the mathematical kind) because you can test them.</li>
+			<li style="margin: 25px">The Document Object Model (DOM) is a programming API for HTML and XML documents. It defines the logical structure of documents and the way a document is accessed and manipulated. In the DOM specification, the term "document" is used in the broad sense - increasingly, XML is being used as a way of representing many different kinds of information that may be stored in diverse systems, and much of this would traditionally be seen as data rather than as documents. Nevertheless, XML presents this data as documents, and the DOM may be used to manage this data.</li>
+		</ul>
+		<br>
+		<br>
+		<br>
+		<br>
+	</section>
+	<section>
+		<h3 style="margin: 25px; font-size: 20px;">Block line &amp; Inline line level elements</h3>
+		<p style="margin: 25px; font-size: 18px">Block-level elements begin on a new line, stacking one on top of the other &amp; occupy any available width, Block-level elements may be nested inside one another &amp; wrap inline-level elements. We'll most commonly see block-level elements used for larger pieces of content, such as headings or paragraphs.</p>
+		<p style="margin: 25px; font-size: 18px">Heading &amp; the paragraph tags are given as <code style="color: green">&lt;h1&gt;...&lt;/h1&gt;</code> to <code style="color: green">&lt;h6&gt;...&lt;/h6&gt;</code> and <code style="color: green">&lt;p&gt;...&lt;/p&gt;</code></p>
+		<p style="margin: 25px; font-size: 18px">Inline-level elements do not begin on a new line. They fall into normal flow of a document, lining up one after the other, and only maintaining the width of their content. Inline-level elements may be nested inside one another; however, they cannot wrap block-level elements. We'll usually see inline-level elements with smaller pieces of content, such as few words.</p>
+	</section>
+	<section>
+		<h3 style="margin: 25px; font-size: 20px;">About HTML building structure</h3>
+		<p style="margin: 25px; font-size: 18px;">HTML5 introduced new structurally based elements including the <code style="color: green">&lt;header&gt; &lt;nav&gt; &lt;article&gt; &lt;section&gt; &lt;aside&gt; &lt;footer&gt;</code> elements. All of these new elements are intended to give meaning to the organization of our pages &amp; improve our structural semantics. They are all block-level elements &amp; do not have implied position or style.</p>
+	</section>
+	<section>
+		<h3 style="margin: 25px; font-size: 20px">Hyperlinks, Multimedia &amp; Tables</h3>
+		<p style="margin: 25px; font-size: 18px">You'll now learn about how to add hyperlinks, multimedia &amp; tables to your website. If you have observed closely, and are actually reading this now then &ndash; you must've noticed that the webpage is built upon Hyperlinks. I've also added images at some places &amp; you must've even spotted a table. I'll briefly describe all of these using description lists.</p>
+		<dl style="margin: 25px;">
+			<dt style="font-size: 18px"><i>Creating Hyperlinks</i></dt>
+			<dd style="font-size: 18px">Hyperlinks provides the ability to link from one webpage or resource to another. Hyperlinks are established using the anchor <code>&lt;a&gt;</code> inline elements.</dd>
+			<dd style="font-size: 18px">Example: <code style="color: green">&lt;a href = "https:facebook.com"&gt;Facebook&lt;/a&gt;</code></dd>
+			<dt style="font-size: 18px"><i>Adding Multimedia</i></dt>
+			<dd style="font-size: 18px">Multimedia includes images, videos, and audio files. These can be added using <code style="color: green">&lt;img&gt;</code> and <code>&lt;video&gt;</code> tags. Most common attributes used in these tags include height, width, autoplay, loop &amp; controls.</dd>
+			<dd style="font-size: 18px">Example for images: <code style="color: green">&lt;img src = "imgs/redcross-logo.png" alt = "Red Cross Logo"/&gt;</code> &mdash; for local reference. <br> <code style="color: green">&lt;img src = "http://www.redcross.org/images/logo.png" alt = "Red Cross Logo"/&gt;</code> &mdash; for Absolute reference.</dd>
+			<dt style="font-size: 18px"><i>Creating tables</i></dt>
+			<dd style="font-size: 18px">Tables are used in HTML for organizing the data in a more convincing fashion so as to better understand it. It is created using <code style="color: green">&lt;table&gt; &lt;thead&gt; &lt;tfooter&gt; &lt;tbody&gt; &lt;tr&gt;</code> and <code style="color: green">&lt;td&gt;</code>tags.</dd>
+		</dl>
+	</section>
+    <footer>
+		<small style="margin: 25px">&copy;Copyrights of this page is owned by Aneesh Kumar.</small>
+	</footer>
+</body>
+</html>
